@@ -27,6 +27,7 @@ CREATE TABLE users (
 ✅ **Step 2: PHP API (register.php)**
 Save as: register.php
 
+
 <?php
 $host = "localhost";
 $user = "root"; // change as per your server
@@ -56,6 +57,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 $conn->close();
 ?>
+
 
 
 
